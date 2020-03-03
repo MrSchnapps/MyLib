@@ -6,7 +6,7 @@
 /*   By: judecuyp <judecuyp@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/07 09:59:42 by judecuyp          #+#    #+#             */
-/*   Updated: 2020/03/03 20:55:52 by judecuyp         ###   ########.fr       */
+/*   Updated: 2020/03/03 21:19:07 by judecuyp         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,7 @@ size_t			ft_strlcat(char *dst, const char *src, size_t dstsize);
 size_t			ft_strlcpy(char *dst, const char *src, size_t dstsize);
 char			*ft_strnstr(const char *big, const char *little, size_t len);
 int				ft_strncmp(const char *s1, const char *s2, size_t n);
+int				ft_strcmp(char *s1, char *s2);
 char			*ft_strrchr(const char *s, int c);
 char			*ft_strchr(const char *s, int c);
 char			*ft_strdup(const char *s1);
